@@ -6,7 +6,48 @@
 </head>
 <body>
 <h1>Contact Us</h1>
+
 <a href="index.html">Home</a>
+
+<form action="">
+    <fieldset>
+        <legend>Fill this form</legend>
+
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="">DOB</label>
+            <input type="datetime-local" name="dob" value="" required>
+        </div>
+        <br>
+        <div>
+            <label for="">Gender</label>
+            <label for="">Male <input type="radio" name="gender" value="male" id="male"></label>
+            <lable>Female</lable>
+            <input type="radio" name="gender" value="female" id="female">
+        </div>
+        <div>
+            Phone<input type="checkbox" name="wayToCommunicate" value="phone">
+            Email<input type="checkbox" name="wayToCommunicate" value="email">
+            Post<input type="checkbox" name="wayToCommunicate" value="post">
+        </div>
+        <div>
+            <select name="rating" id="">
+                <option value="4">Excellent</option>
+                <option value="3">Very Good</option>
+                <option value="2">Good</option>
+                <option value="1">Poor</option>
+            </select>
+        </div>
+        <br><input type="submit" value="submit">
+    </fieldset>
+
+</form>
 
 </body>
 </html>
