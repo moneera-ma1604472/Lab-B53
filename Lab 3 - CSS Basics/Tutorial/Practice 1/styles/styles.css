@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.intro header{
+    text-align: center;
+    font-size: 1.5rem;
+}
+nav[role=mainNav]{
+    background-color: lightblue;
+    padding: 5px;
+    text-align: center;
+}
+
+
+nav[role=mainNav] li{
+    list-style: none;
+    margin: 10px;
+}
+
+nav[role=mainNav] a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+nav[role=mainNav] a:hover{
+    text-decoration: underline;
+    background-color: orange;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    nav[role=mainNav] ul{
+        display: flex;
+    }
+}
